@@ -10,12 +10,13 @@ const NavbarStyled = styled.div`
 const Logo = styled(Title)`
   font-size: 20px;
   color: white;
+  text-shadow: 1px 3px 4px #3a0c0269;
 `
 
 export default function Navbar() {
   return (
     <NavbarStyled>
-      <Logo>Sliceline</Logo>
+      <Logo>Sliceline 🍕</Logo>
     </NavbarStyled>
   )
 }
