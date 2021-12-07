@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 
 const GlobalStyle = createGlobalStyle`
   body {
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
   }
   h1, h2, h3 {
@@ -16,9 +17,8 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
     <>
-      <Navbar />
-      <h1>Sliceline</h1>
       <GlobalStyle />
+      <Navbar />
       <div className="App">React Pizza</div>
     </>
   )
