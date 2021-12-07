@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 
 // components
 import Navbar from './components/Navbar'
+import { Banner } from './components/Banner'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -19,6 +20,7 @@ function App() {
     <>
       <GlobalStyle />
       <Navbar />
+      <Banner />
       <div className="App">React Pizza</div>
     </>
   )
